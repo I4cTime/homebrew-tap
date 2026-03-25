@@ -1,8 +1,8 @@
 class Qring < Formula
   desc "Quantum keyring for AI coding tools — secrets, superposition, entanglement, MCP"
   homepage "https://qring.i4c.studio"
-  url "https://registry.npmjs.org/@i4ctime/q-ring/-/q-ring-0.9.3.tgz"
-  sha256 "089b79eec794af0380f8900708ed3cbf89457c8fc5ac6b98e9bad21b8259f9d4"
+  url "https://registry.npmjs.org/@i4ctime/q-ring/-/q-ring-0.9.4.tgz"
+  sha256 "9c9bb4f945a42580ff8e59de5a5cc462732a0daab5e4fa35560e5acccb5ff76c"
   license "AGPL-3.0-only"
 
   depends_on "node@22"
