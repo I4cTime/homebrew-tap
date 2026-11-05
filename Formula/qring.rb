@@ -1,8 +1,8 @@
 class Qring < Formula
   desc "Quantum keyring for AI coding tools — secrets, superposition, entanglement, MCP"
   homepage "https://qring.i4c.studio"
-  url "https://registry.npmjs.org/@i4ctime/q-ring/-/q-ring-0.18.0.tgz"
-  sha256 "0f6bbac9440e746a4ae226eddadfec9745636567690545312556315175d61bf2"
+  url "https://registry.npmjs.org/@i4ctime/q-ring/-/q-ring-0.19.0.tgz"
+  sha256 "ca623e8d289b9aa81e1f774a1f744be2c5ffdd0bafcff04f013d4ba5e4643830"
   license "AGPL-3.0-only"
 
   depends_on "node@22"
@@ -14,6 +14,6 @@ class Qring < Formula
 
   test do
     # `qring --version` prints the bare version (Commander default).
-    assert_match "0.18.0", shell_output("#{bin}/qring --version")
+    assert_match "0.19.0", shell_output("#{bin}/qring --version")
   end
 end
